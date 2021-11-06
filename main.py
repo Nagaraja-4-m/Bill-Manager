@@ -41,7 +41,7 @@ if(rows==0):     #for first time,to setup the shop information and admin account
         cursor.execute(query % shop_details)
         conn.commit()
         print('   > Shop details Setted.')
-        query="insert into users(user_name,user_mobile,user_email,user_password) values('%s','%s','%s','%s')"
+        query="insert into users(user_name,user_mobile,user_email,user_password,status_role) values('%s','%s','%s','%s','1')"
         cursor.execute(query % admin_details)
         time.sleep(1)
         print('   > Admin setted.')
