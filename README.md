@@ -24,18 +24,16 @@ Members functionalities:
 5. go to `connection.py`  file and update your mysql 'user' and 'password' details in    `connect_db()` function.
 6. run `main.py` file 
 
-Note:To  run this code in linux based system please find 'os.system("cls")' statements in all the files and replace it to ' os.system("clear")'
-
 
 **Files:**
-main --  execution stars from here
-initial_setup -- when runs first time, to set shop and user account details
-validation -- to authenticate user/member
-connection -- to connect database
-admin -- had admin menu
-member -- had member menu
-funct -- had all functionalities
-database/db_file -- had SQL code to create necessary database and tables
+main.py --  execution stars from here.
+initial_setup.py -- when runs first time, to set shop and user account details.
+validation.py -- to authenticate user/member.
+connection.py -- to connect database.
+admin.py -- had admin menu.
+member.py -- had member menu.
+funct.py -- had all functionalities.
+database/db_file.sql -- had SQL code to create necessary database and tables.
 
 
 Initial setup.
